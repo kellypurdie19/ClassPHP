@@ -1,9 +1,6 @@
 <?php
-require '../model/categories.php';
-$categories = get_categories();
-
-require '../model/products.php';
-$products = get_products();
+require '../model/teams.php';
+$teams = get_teams();
 include 'list.php';
 
 ?>

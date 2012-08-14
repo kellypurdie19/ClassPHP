@@ -1,10 +1,7 @@
 <html><body><h1>
 <?php
-   foreach($categories as $category){
-   	echo $category['categoryName'].'<br>';
-   }
-   foreach($products as $product){
-   	echo $product['productName'].'<br>';
+   foreach($teams as $team){
+   	echo $team['name'].'<br>';
    }
    echo "Hello World";
 ?>
