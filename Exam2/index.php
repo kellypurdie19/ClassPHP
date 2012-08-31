@@ -16,43 +16,9 @@ ActiveRecord\Config::initialize(function($cfg)
 	);
 });
 
-/*if($action == 'Subscribe'){
-	
-	$oEmail = new Email;
-	$oEmail->email = $_POST['email'];
-	$oEmail->save(); 
-	
-}elseif($action == 'Delete'){
-	
-	$oEmail= Email::find_by_email($_GET['email']);
-	if($oEmail && $oEmail->delete()){
-		echo "1 email deleted";
-	}
-	else{
-		echo "0 emails deleted";
-	}
-	
-}elseif($action == 'Unsubscribe'){
-	
-	$oEmail= Email::find_by_email($_GET['email']);
-	if($oEmail && $oEmail->delete()){
-		echo "You have been unsubscribe";
-	}else{
-		echo "unsubscription failed";
-	}
-	
-		exit();
 
-}elseif($action == 'Send'){
-	include 'Model/helpers.php';
-	sendEmails();
-}
-	
-if($action == '' || $action == 'Send'){
-	include 'Views/email.php';
-}else{
-	include 'Views/edit.php';
-}*/
-include 'Views/edit.php';
+
+
+include 'Views/list.php';
 echo "Hello World!";
 ?>
