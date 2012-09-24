@@ -25,8 +25,11 @@ if(array_key_exists('submit', $_POST)){
 if(array_key_exists('add', $_POST)){
 	include 'View/add.php';
 }else{
+	$aPurchases = Purchase::find('all');
 	include 'View/List.php';
 }
+
+include 'View/searchquery.php';
 
 
 ?>

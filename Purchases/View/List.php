@@ -7,24 +7,41 @@
 			<th>date</th>
 			<th>purchase</th>
 			<th>price</th>
-			<th>total</th>
+			<th> tally</th>
 		</tr>
 
-		<?php foreach(Purchase::find('all') as $oPurchase){?>
+		<?php
+		 $nTotal = 0;
+		 foreach($aPurchases as $oPurchase){?>
 
 		<tr>
 			<td><?php echo $oPurchase->date ?>
 			</td>
 			<td><?php echo $oPurchase->purchase ?>
 			</td>
-			<td><?php echo $oPurchase->price ?>
+			<td><?php $nTotal += $oPurchase->price;
+				echo "current total"." $".$oPurchase->price ?>
+			</td>
+			<td><?php
+				echo "tally"." $". $nTotal;
+				?>
 			</td>
 		</tr>
 
 		<?php } ?>
+		
+		
+				
 	</table>
-
+				
 	<input type='submit' name='add' value='add' />
+	<p><?php
+		echo "Final Total"." $". $nTotal;
+	?>
+	</p>
+	
+		
+
 	</form>
 </body>
 </html>
