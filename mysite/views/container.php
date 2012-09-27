@@ -18,8 +18,12 @@ if(isset($_GET['page'])){
 		
 	}elseif ($_GET['page']=='designs'){
 		include 'designs';
-	}//end of elseif						
+	}//end of elseif
+	
 }//end of if	
+else{
+		include 'aboutme.php';
+	}//end else
 ?>
 <script type="text/javascript" src="table.js></script>
 </article>	

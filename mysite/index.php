@@ -1,4 +1,25 @@
+<?php
 
+$sRes = '';
+	if(isset($_POST['action'])){
+	// The message
+	$req_first_name = $_POST['req_first_name'];
+	$req_last_name = $_POST['req_last_name'];
+	$email_news = $_POST['email_news'];
+	$comments = $_POST['comments'];
+	
+	$message = "Work request $req_first_name $req_last_name $email_news $comments";	
+		
+	// In case any of our lines are larger than 70 characters, we should use wordwrap()
+	$message = wordwrap($message, 70);
+	
+	if(mail('kellypurdie19@yahoo.ca', 'site reply', $message)){
+		$sRes = "Thank you for your inquiery";
+	}else{
+		$sRes = "mail failed";
+	}
+}	
+?>
 <!DOCTYPE html>
 
 <!--
@@ -53,7 +74,10 @@
 			</header> <!-- header -->
 			
 			<div id="centerpanel">
-				<?php include './views/main.php';?>
+				<?php include './views/main.php';?>				
+				<?php echo $sRes;
+				?>
+				
 			</div> <!-- centerpanel -->
 			
 			<div id="imageContainer">				

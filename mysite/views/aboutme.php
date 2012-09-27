@@ -1,5 +1,5 @@
 <div id="about">
-	<article class="image-container">
+	<article >
 		<h1>About me</h1>
 		<img  src="images/me_kelly.png" alt="meImage" />
 		 <h2>Hola!</h2>
