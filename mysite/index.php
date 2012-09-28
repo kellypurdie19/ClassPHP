@@ -1,7 +1,8 @@
 <?php
-
 $sRes = '';
-	if(isset($_POST['action'])){
+	if(isset($_POST['
+			.
+			'])){
 	// The message
 	$req_first_name = $_POST['req_first_name'];
 	$req_last_name = $_POST['req_last_name'];
