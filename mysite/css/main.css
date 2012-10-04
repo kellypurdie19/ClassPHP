@@ -1,7 +1,7 @@
 /*
 	Website:  		 
-	Developer:    Matthew Campbell
-	Created On:
+	Developer:    Kelly Purdie
+	Created On:	  september 20 2012
 	Revised On:
 	CSS Version: 	3
 	
@@ -167,24 +167,23 @@ form {
 #imageContainer {
 		width: 600px;
         height: 640px;
-        vertical-align: middle;
-        display: table;        
+        display: inline-block;        
         background: #656AF7;
         -webkit-border-top-left-radius:0px;
-			-webkit-border-top-right-radius:20px;
-			-webkit-border-bottom-right-radius:20px;
-			-webkit-border-bottom-left-radius:0px;
-			-moz-border-top-left-radius:0px;
-			-moz-border-top-right-radius:20px;
-			-moz-border-bottom-right-radius:20px;
-			-moz-border-bottom-left-radius:0px;
-			border-top-left-radius:0px;
-			border-top-right-radius:20px;
-			border-bottom-right-radius:20px;
-			border-bottom-left-radius:0px;
+		-webkit-border-top-right-radius:20px;
+		-webkit-border-bottom-right-radius:20px;
+		-webkit-border-bottom-left-radius:0px;
+		-moz-border-top-left-radius:0px;
+		-moz-border-top-right-radius:20px;
+		-moz-border-bottom-right-radius:20px;
+		-moz-border-bottom-left-radius:0px;
+		border-top-left-radius:0px;
+		border-top-right-radius:20px;
+		border-bottom-right-radius:20px;
+		border-bottom-left-radius:0px;
 		color: #FFF;
 }
-#imageContainer #about img{
+#about img{
 	float: left;
 	max-width: 150px;
 	padding: 5px;
@@ -193,7 +192,6 @@ form {
 	margin: 9px 9px 9px 0px;
 
 }
-
 #about{
 	padding: 5px 20px ;
 	max-height: 590;
@@ -212,26 +210,6 @@ form {
         font-size: 1.05em;
         color: #FFF;
     }
-	.image-container img{
-        max-width: 350px;
-        max-height: 350px;
-        background: #000;
-        padding: 3px; 
-        margin: 8px; 
-        vertical-align: middle;
-        border: #FFF 4px solid;
-     }
-     
-     #csstabs{
-		position:relative;
-		width:300px;
-		height:290px;
-	}
-#csstabs h3{
-padding:5px;
-height:30px;
-text-align:center;
-border-top:1px solid #000;
-border-left:1px solid #000;
-border-right:1px solid #000;
+#database{
+	clear: left;
 }

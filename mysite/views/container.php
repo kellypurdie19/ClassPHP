@@ -25,5 +25,4 @@ else{
 		include 'aboutme.php';
 	}//end else
 ?>
-<script type="text/javascript" src="table.js></script>
-</article>	
+	

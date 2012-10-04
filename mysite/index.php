@@ -37,7 +37,7 @@ $sRes = '';
 		./css/main.css
 -->	
 	
-<html lang="en">
+<html class="no-js" lang="en">
 <head>
 	<meta charset="utf-8" />
 
@@ -53,12 +53,11 @@ $sRes = '';
 	<link rel="apple-touch-icon" href="apple-touch-icon.png" />
 	-->
 	
-	<!-- JavaScript link 
-	<script src="./js/filename.js"></script>
-	-->
-	<script type="text/javascript" src="table_library.js"></script>
-	
-	
+	<!-- JavaScript link -->
+	<script type='text/javascript' src='http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js?ver=3.0.1'></script>    
+	<script type='text/javascript' src='./js/infinite-rotator.js'></script>		
+	<link rel="stylesheet" href="./css/rotator.css" type="text/css" media="screen" />
+		
 	<!-- CSS link -->
 	<link rel="stylesheet" href="./css/main.css" />
 	
@@ -90,5 +89,7 @@ $sRes = '';
 			
 		</div> <!-- container -->
 	</div> <!-- page_wrap -->
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.1/jquery.min.js" type="text/javascript"></script>
+	<script src="slideshow.js" type="text/javascript"></script>
 </body>
 </html>
