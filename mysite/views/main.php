@@ -1,5 +1,4 @@
-<div id="centerpanel">
-	<p class="name"><a>[CK:ME]</a></p>
-	<p class="logo"><a href="/">KellyPurdie </a></p>
-	<?php  include 'form.php'?> 
-</div>
+	<p ><a  class="name">Kelly Purdie</a></p> 
+<div id="logo"> 
+	<a href="/">{CK.ME}</a>
+</div> <!--logo--> 

@@ -16,6 +16,33 @@ if(isset($_GET['page'])){
 		include 'database.php';
 		
 		
+	}elseif($_GET['page']=='projects'){
+		
+		include 'coder.php';
+		include 'projects.php';
+			
+	}elseif($_GET['page']=='languageSample'){
+		
+		include 'coder.php';
+		include 'languageSample.php';
+			
+	}elseif($_GET['page']=='contact'){
+		
+		include 'contact.php';
+			
+	}elseif($_GET['page']=='artist'){
+		
+		include 'artist.php';
+			
+	}elseif($_GET['page']=='designer'){
+		
+		include 'designer.php';
+			
+	}elseif($_GET['page']=='languageSample'){
+		
+		include 'coder.php';
+		include 'languageSample.php';
+			
 	}elseif ($_GET['page']=='designs'){
 		include 'designs';
 	}//end of elseif

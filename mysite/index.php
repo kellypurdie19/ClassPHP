@@ -1,8 +1,6 @@
 <?php
 $sRes = '';
-	if(isset($_POST['
-			.
-			'])){
+	if(isset($_POST['action'])){
 	// The message
 	$req_first_name = $_POST['req_first_name'];
 	$req_last_name = $_POST['req_last_name'];
@@ -20,6 +18,8 @@ $sRes = '';
 		$sRes = "mail failed";
 	}
 }	
+
+
 ?>
 <!DOCTYPE html>
 
@@ -53,14 +53,9 @@ $sRes = '';
 	<link rel="apple-touch-icon" href="apple-touch-icon.png" />
 	-->
 	
-	<!-- JavaScript link -->
-	<script type='text/javascript' src='http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.min.js?ver=3.0.1'></script>    
-	<script type='text/javascript' src='./js/infinite-rotator.js'></script>		
-	<link rel="stylesheet" href="./css/rotator.css" type="text/css" media="screen" />
-		
 	<!-- CSS link -->
 	<link rel="stylesheet" href="./css/main.css" />
-	
+	<link rel="stylesheet" href="./css/style.css" type="text/css" media="screen" />
 	
 	<!--[if lt IE 9]>
 		<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
@@ -90,6 +85,8 @@ $sRes = '';
 		</div> <!-- container -->
 	</div> <!-- page_wrap -->
 	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.1/jquery.min.js" type="text/javascript"></script>
-	<script src="slideshow.js" type="text/javascript"></script>
+	<script src="./js/infinite-rotator.js" type="text/javascript"></script>
+	<!-- JavaScript link 
+	<script src="./js/contact.js" type="text/javascript"></script>-->
 </body>
 </html>
