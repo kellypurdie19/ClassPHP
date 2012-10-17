@@ -27,7 +27,9 @@
 			<input class="submit" type="submit" value="response" name="action"/>
 			<input class="reset" type="reset" value="Reset" />
 		</form>
-	<span> <?php echo $sRes; ?></span>
+	
 	</article>
+	<!-- JavaScript link -->
+	<script src="./js/contact.js" type="text/javascript"></script>
 </div>
 

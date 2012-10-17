@@ -161,6 +161,9 @@ header{
 	text-indent: -9999px;
 	background: url("../images/cklogo1.png") no-repeat;
 }
+#centerpanel #main a{
+	font-family:Constantia,Georgia,'Nimbus Roman No9 L',serif;
+}
 #contact{
 	margin-top: 40px;
 }
@@ -173,7 +176,7 @@ header{
 }
 #label{
 	display: inline-block;
-	width: 80px;
+	width: 100px;
 	margin-top: 10px;
 	text-align: right;
 }
@@ -217,19 +220,43 @@ header{
 	max-width: 150px;
 	padding: 5px;
 	background: #000;
-	border: 3px solid #656AF7;
+	border: 5px solid #656AF7;
 	margin: 9px 9px 9px 0px;
 
 }
 #about{
 	padding: 5px 20px ;
 	max-height: 590;
+	vertical-align: middle;
 	text-align: left;
 }
-#about h1, #about h2{
-	font-size: 1.4em;
+
+#about .top{
+	margin-top: 25px;
+	vertical-align: middle;
+	text-align: center;
 }
-    .image-container {
+#about article{
+	display: inline-block;
+	width: 40px;
+	margin: 8px;
+	border: 1px solid #CCC;	
+	
+}
+#about h1{
+	text-align: center;
+	display: inline-block;
+	padding: 5px;
+	font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+#about h2{
+		font-family:Cambria,'Palatino Linotype','Book Antiqua','URW Palladio L',serif;
+	}
+#about h1, #about h2{
+	font-size: 2em;
+	color: #99FF00;
+}
+	.image-container {
     	vertical-align: middle;
     	width: 590px;
      	height: 590px;
@@ -239,10 +266,44 @@ header{
         font-size: 1.05em;
         color: #FFF;
     }
+    #about span{
+    	color: #66FFFF;
+    	font-size: 1.5em;
+    	font-family:Constantia,Georgia,'Nimbus Roman No9 L',serif;
+    }
+    #about p{
+    	font-size: 1.1em;
+    	font-family:'Century Gothic',futura,'URW Gothic L',Verdana,sans-serif;
+    }
 #database{
 	clear: left;
 }
 #designer{
 	
 	margin-top: 70px;
+}
+.req_get_info{
+	color: #FFF;
+}
+
+.submit{
+	margin: 14px;
+	margin-left: 33px;
+	font-size: 15px;
+}
+.reset{	
+	margin-left: 0;
+	font-size: 15px;
+}
+.error{
+	border-color: #F00;
+	background-color: #FF0;
+	color:#F00;
+}
+.hidden{
+	display: none;
+}
+.show
+{
+	display: block;
 }

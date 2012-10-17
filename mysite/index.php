@@ -70,13 +70,12 @@ $sRes = '';
 			
 			<div id="centerpanel">
 				<?php include './views/main.php';?>				
-				<?php echo $sRes;
-				?>
-				
+								
 			</div> <!-- centerpanel -->
 			
 			<div id="imageContainer">				
 				<?php include './views/container.php'; ?>
+				
 			</div> <!-- container -->
 			
 			<footer>
@@ -86,7 +85,6 @@ $sRes = '';
 	</div> <!-- page_wrap -->
 	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.1/jquery.min.js" type="text/javascript"></script>
 	<script src="./js/infinite-rotator.js" type="text/javascript"></script>
-	<!-- JavaScript link 
-	<script src="./js/contact.js" type="text/javascript"></script>-->
+	
 </body>
 </html>
