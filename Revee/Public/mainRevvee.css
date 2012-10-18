@@ -1,0 +1,103 @@
+/* ------------------ Reset ------------------ */
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote,
+pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, 
+samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article,
+aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav,
+output, ruby, section, summary, time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+
+body {
+	line-height: 1;
+}
+
+ol, ul {
+	list-style: none;
+}
+
+blockquote, q {
+	quotes: none;
+}
+
+blockquote:before, blockquote:after, q:before, q:after {
+	content: '';
+	content: none;
+}
+
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* ------------------ End Reset ------------------ */
+
+#container{
+	width: 900px;
+	margin: 0 auto;
+}
+header{
+	display inline-block;
+	height: 166px;
+	margin: 0 auto;
+	background-color: #919090;
+	padding-left: 78px;
+	
+}
+	#contect_header{
+		width:900px;
+		height:166px;
+		padding-top: 25px;'
+		
+}
+		#logo, #title{
+			display: inline-block; 
+			vertical-align: middle;
+			}
+		#logo{
+		 	width: 114px;
+			height: 114px;
+			background-color: #C2C0C0;
+			-webkit-border-top-left-radius:20px;
+			-webkit-border-top-right-radius:20px;
+			-webkit-border-bottom-right-radius:20px;
+			-webkit-border-bottom-left-radius:20px;
+			-moz-border-top-left-radius:20px;
+			-moz-border-top-right-radius:20px;
+			-moz-border-bottom-right-radius:20px;
+			-moz-border-bottom-left-radius:20px;
+			border-top-left-radius:20px;
+			border-top-right-radius:20px;
+			border-bottom-right-radius:20px;
+			border-bottom-left-radius:20px;
+		}
+		  
+		 h1{
+			color: #5E5D5D;
+			font-size: 7em;
+		 }
+	#main {
+		width: 900px;
+		margin: 0 auto;
+		text-align: center;
+	}
+	footer{
+		background-color: #919090;
+		padding: 20px 0 20px;
+		text-align: center;
+		color: #FFF;
+	}
+		 
+	
+	
+	 

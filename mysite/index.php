@@ -68,11 +68,6 @@ $sRes = '';
 				<?php include './views/navbar.php'; ?> 
 			</header> <!-- header -->
 			
-			<div id="centerpanel">
-				<?php include './views/main.php';?>				
-								
-			</div> <!-- centerpanel -->
-			
 			<div id="imageContainer">				
 				<?php include './views/container.php'; ?>
 				

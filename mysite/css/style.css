@@ -2,7 +2,7 @@
 	position: relative;
 	width: 500px;
 	height: 500px;
-	margin: 0 auto;
+	margin: 0 43px;
 }
 .rotating-item {
 	width:500px;
@@ -12,5 +12,5 @@
 	position: absolute;
 	top: 0;
 	left: 0;
-	border: 3px outset #5167B0;
+	border: 9px solid #ccccff;
 }
