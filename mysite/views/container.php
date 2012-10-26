@@ -1,5 +1,3 @@
-<article id="imageContainer">
-
 <?php 
 if(isset($_GET['page'])){
 	if($_GET['page']=='about'){
@@ -12,10 +10,8 @@ if(isset($_GET['page'])){
 		
 	}elseif ($_GET['page']=='database'){
 		
-		include 'coder.php';
 		include 'database.php';
-		
-		
+			
 	}elseif($_GET['page']=='projects'){
 		
 		include 'coder.php';

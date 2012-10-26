@@ -1,13 +1,16 @@
 <div id="about">
-	<div>
-		<img  src="images/me_kelly.png" alt="meImage" />
+	<div id="left">
+		<div id="span"></div>
 		<div class="top" >
 			<article></article><h1>ONLINE PORTFOLIO</h1><article></article>
 		 	<h2>WELCOME!</h2><article id="article"></article>
 		 </div>
+		 <div id="span"></div>
+	</div>
+	<div id="right">	 
+		<img  src="images/me_kelly.png" alt="meImage" />
 		 <p>
-			I guess what follows is my introduction. I am <span>Kelly Purdie</span>,
-			I am a freelance <span>web</span> and <span>graphic designer</span> who
+			I guess what follows is my introduction.  I am <span>Kelly Purdie</span>, I am a freelance <span>web</span> and <span>graphic designer</span> who
 			loves building beautiful & unique pieces of <span>artistic designs</span>.
 			I have a <span>Graphic Arts</span> Electronics Pre-press <span>diploma</span> from Mohawk College.
 			My <span>experience</span> include 4 years of a <span>Project Leader</span> position and I
@@ -18,6 +21,8 @@
 			I am really good at <span>problem solving</span>, interacting and working <span>together</span> as a 
 			<span>team</span> in all <span>levels of a company</span>. I hope you enjoy the site. <span>Feel free</span> to drop 
 			me a comment though my <span>contact form</span>.
-		</p>    
+		</p> 
+		
+		   
 	</div>
 </div>

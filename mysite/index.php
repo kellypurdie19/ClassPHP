@@ -65,8 +65,12 @@ $sRes = '';
 	<div id="page_wrap">
 		<div id="container">
 			<header>
-				<?php include './views/navbar.php'; ?> 
 			</header> <!-- header -->
+			<nav>
+				<?php include './views/navbar.php'; ?>
+			</nav>
+			
+			<?php include './views/name.php'; ?> 
 			
 			<div id="imageContainer">				
 				<?php include './views/container.php'; ?>
