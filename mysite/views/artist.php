@@ -2,11 +2,11 @@
 	<div id="left">
 		<div id="container">
 			<div class="image-container">
-			  <img src="images/Access.jpg" alt="Access database sample"  width="150" height="150" />
-		      <img src="images/folderOfSchema.jpg" alt="Schema folder sample"  width="150" height="150" />
-		      <img src="images/workbench.jpg" alt="Workbench database sample"  width="150" height="150" />
-		      <img src="images/ConceptialDesign.jpg" alt="Conceptual design sample" width="150" height="150" />
-		   	</div>
+				<a class="fancybox-button" rel="fancybox-button" href="images/butterflyL.jpg" title="An invitation  Factory."><img src="images/butterfly.jpg" alt="" width="150" height="150"/></a>
+				<a class="fancybox-button" rel="fancybox-button" href="images/concordia.jpg" title="Brasted Kent"><img src="images/concord.jpg" alt="" width="150" height="150"/></a>
+				<a class="fancybox-button" rel="fancybox-button" href="images/painting.jpg" title="Brasted Kent"><img src="images/cSharp1.jpg" alt="" width="150" height="150"/></a>
+				<a class="fancybox-button" rel="fancybox-button" href="images/woman.jpg" title="Brasted Kent"><img src="images/cSharp2.jpg" alt="" width="150" height="150"/></a>
+			</div>
 	   	</div>
 	</div>
 	<div id="right">
