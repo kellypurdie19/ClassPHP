@@ -2,11 +2,11 @@
 	<div id="left">
 		<div id="container">
 			<div class="image-container">
-			  <img src="images/Access.jpg" alt="Access database sample"  width="150" height="150" />
-		      <img src="images/folderOfSchema.jpg" alt="Schema folder sample"  width="150" height="150" />
-		      <img src="images/workbench.jpg" alt="Workbench database sample"  width="150" height="150" />
-		      <img src="images/ConceptialDesign.jpg" alt="Conceptual design sample" width="150" height="150" />
-		   	</div>
+			  <a href="images/Access.jpg" rel="lightbox[roadtrip]" title="Access Database Image"><img src="images/Access.jpg" alt="Access database sample"  width="150" height="150" /></a>
+			  <a href="images/folderOfSchema.jpg" rel="lightbox[roadtrip]" title="Folder schema image"><img src="images/folderOfSchema.jpg" alt="Folder schema sample"  width="150" height="150" /></a>
+			  <a href="images/workbench.jpg" rel="lightbox[roadtrip]" title="Workbench Database image"><img src="images/workbench.jpg" alt="Workbench database sample"  width="150" height="150" /></a>
+			  <a href="images/ConceptialDesign.jpg" rel="lightbox[roadtrip]" title="Conceptual Design image"><img src="images/ConceptialDesign.jpg" alt="Conceptial Design sample"  width="150" height="150" /></a>
+			</div>
 	   	</div>
 	</div>
 	<div id="right">

@@ -41,6 +41,10 @@ if(isset($_GET['page'])){
 		include 'coder.php';
 		include 'languageSample.php';
 			
+	}elseif($_GET['page']=='footer'){
+		
+		include 'footer.php';
+			
 	}elseif ($_GET['page']=='designs'){
 		include 'designs';
 	}//end of elseif

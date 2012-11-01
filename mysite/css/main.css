@@ -149,8 +149,8 @@ nav #navlist{
 	float: left;
 	display: inline-block;
 	width:750px;
-	height: 298px;
-	margin: 15px;
+	height: 300px;
+	margin: 10px;
 	font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 	text-align: left;
 }
@@ -799,7 +799,13 @@ nav #navlist{
 	width:390px;
 	color: #000033;
 }
-
+footer{
+	background: #C9C9C9;
+	height: 50px; /*753728*/
+	margin: 25px 0;
+	padding: 45px;
+	
+}
 .submit{
 	margin: 14px;
 	margin-left: 33px;

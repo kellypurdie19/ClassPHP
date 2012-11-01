@@ -78,6 +78,7 @@ $sRes = '';
 			</div> <!-- container -->
 			
 			<footer>
+				<?php include './views/footer.php'; ?>
 			</footer> <!-- footer -->
 			
 		</div> <!-- container -->
@@ -85,9 +86,9 @@ $sRes = '';
    	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.1/jquery.min.js" type="text/javascript"></script>
 	<script src="./js/infinite-rotator.js" type="text/javascript"></script>
 
-	<script src="js/jquery-1.7.2.min.js"></script>
-	<script src="js/lightbox.js"></script>
-	<link href="css/lightbox.css" rel="stylesheet" />
+	<script src="./js/lightbox/js/jquery-1.7.2.min.js"></script>
+	<script src="./js/lightbox/js/lightbox.js"></script>
+	<link href="./js/lightbox/css/lightbox.css" rel="stylesheet" />
 	
 	<!-- Add jQuery library -->
 <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7/jquery.min.js"></script>

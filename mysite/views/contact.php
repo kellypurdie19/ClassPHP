@@ -24,7 +24,7 @@
 				</div>
 				
 			</fieldset>
-			<input class="submit" type="submit" value="send" name="action"/>
+			<input class="submit" type="submit" value="Send" name="action"/>
 			<input class="reset" type="reset" value="Reset" />
 		</form>
 	
