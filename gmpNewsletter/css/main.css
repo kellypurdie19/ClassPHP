@@ -1,0 +1,47 @@
+/* Clear default styling from block level elements */
+body, div, h1, h2, h3, h4, h5, h6, p, ul, ol, li, dl, dt, dd, img, form, blockquote{
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+body{
+	background: #990000;
+	width: 100%;
+	margin: 0 auto;
+	text-align: center;
+}
+#logo div{
+	background: #000;
+	height: 70px;
+}
+#pattern div{
+	width: 10px;
+	background: #CCC;
+}
+hr{
+	width: 800px;
+}
+#container{
+	width: 900px;
+	margin: 0 auto;
+	background: #FFF;
+}
+#logo h1 a{
+	color: #990000;
+	text-decoration: none;
+}
+
+#images li{
+	list-style: none;
+	text-decoration: none;
+}
+#images{
+	display: inline-block;
+	width: 600px;
+	margin: 50px;
+}
+#images li img{
+border: 5px solid #000;
+	max-width: 300px;
+	
+}

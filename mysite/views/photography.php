@@ -11,10 +11,13 @@
 	<div id="right">	 
 		<div id="container">
 			<div class="image-container">
-			  <a href="images/Access.jpg" rel="lightbox[roadtrip]" title="Access Database Image"><img src="images/Access.jpg" alt="Access database sample"  width="150" height="150" /></a>
-			  <a href="images/folderOfSchema.jpg" rel="lightbox[roadtrip]" title="Folder schema image"><img src="images/folderOfSchema.jpg" alt="Folder schema sample"  width="150" height="150" /></a>
-			  <a href="images/workbench.jpg" rel="lightbox[roadtrip]" title="Workbench Database image"><img src="images/workbench.jpg" alt="Workbench database sample"  width="150" height="150" /></a>
-			  <a href="images/ConceptialDesign.jpg" rel="lightbox[roadtrip]" title="Conceptual Design image"><img src="images/ConceptialDesign.jpg" alt="Conceptial Design sample"  width="150" height="150" /></a>
+				<a class="fancybox-button" rel="fancybox-button" href="images/redleaf.jpg" title="An invitation  Factory."><img src="images/redleaf_thumb.jpg" alt="" width="150" height="150"/></a>
+				<a class="fancybox-button" rel="fancybox-button" href="images/maya.jpg" title="Brasted Kent"><img src="images/maya_thumb.jpg" alt="" width="150" height="150"/></a>
+				<a class="fancybox-button" rel="fancybox-button" href="images/mayalake.jpg" title="Brasted Kent"><img src="images/mayalake_thumb.jpg" alt="" width="150" height="150"/></a>
+				<a class="fancybox-button" rel="fancybox-button" href="images/fireworks.jpg" title="Brasted Kent"><img src="images/portfoliopg4.png" alt="" width="150" height="150"/></a>
+				<a class="fancybox-button" rel="fancybox-button" href="images/beach.jpg" title="Brasted Kent"></a>
+				<a class="fancybox-button" rel="fancybox-button" href="images/falls.jpg" title="Brasted Kent"></a>
+				<a class="fancybox-button" rel="fancybox-button" href="images/gapella.jpg" title="Brasted Kent"></a>
 			</div>
 	   	</div> 
 	</div>
