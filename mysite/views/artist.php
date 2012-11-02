@@ -4,9 +4,9 @@
 			<div class="image-container">
 				<a class="fancybox-button" rel="fancybox-button" href="images/butterflyL.jpg" title=""><img src="images/butterfly.jpg" alt="" width="150" height="150"/></a>
 				<a class="fancybox-button" rel="fancybox-button" href="images/concordia.jpg" title=""><img src="images/concord.jpg" alt="" width="150" height="150"/></a>
-				<a class="fancybox-button" rel="fancybox-button" href="images/painting.jpg" title=""><img src="images/cSharp1.jpg" alt="" width="150" height="150"/></a>
-				<a class="fancybox-button" rel="fancybox-button" href="images/woman.jpg" title=""><img src="images/cSharp2.jpg" alt="" width="150" height="150"/></a>
-				<a class="fancybox-button" rel="fancybox-button" href="images/drawings.jpg" title="">
+				<a class="fancybox-button" rel="fancybox-button" href="images/painting.jpg" title=""><img src="images/paint.jpg" alt="" width="150" height="150"/></a>
+				<a class="fancybox-button" rel="fancybox-button" href="images/woman.jpg" title=""><img src="images/wo.jpg" alt="" width="150" height="150"/></a>
+				<a class="fancybox-button" rel="fancybox-button" href="images/drawings.jpg" title=""></a>
 			</div>
 	   	</div>
 	</div>
