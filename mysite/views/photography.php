@@ -3,7 +3,7 @@
 		<div class="span"></div>
 		<div class="top" >
 			<article></article><h1>Design & Photography</h1><article></article>
-		 	<h2><?php include 'designernav.php'; ?></h2><article id="article"></article>
+		 	<?php include 'designernav.php'; ?><article id="article"></article>
 		 </div>
 		 
 		 <div class="span"></div>

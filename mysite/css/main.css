@@ -63,7 +63,7 @@ header{
 	height: 320px;
 	background-color:#052069;
 	opacity:0.4;
- 	filter:alpha(opacity=40); /* For IE8 and earlier */
+ 	filter:alpha(opacity=40%); /* For IE8 and earlier */
 	border-bottom: 2px solid #A0D7F2;
 	text-align: center;
 	position: absolute;
@@ -153,7 +153,7 @@ nav #navlist{
 	#current{
 		display: inline-block;
 		text-decoration: none;
-		text-style: none;
+		
 	}
 
 .name{
@@ -200,7 +200,7 @@ nav #navlist{
 	width: 350px;
 		color: #FFFF66;
 }
-#label{
+.label{
 	display: inline-block;
 	width: 100px;
 	margin-top: 10px;
@@ -245,7 +245,6 @@ nav #navlist{
 	float:left;
 	width: 398px;
 	height: 398px;
-	padding: opx;
 	vertical-align: top; 	
 	background-color: #FCF6CA;
 	border: 1px solid #ccc;
@@ -324,7 +323,6 @@ nav #navlist{
 	float:left;
 	width: 398px;
 	height: 398px;
-	padding: opx;
 	vertical-align: top; 	
 	background-color: #222244;
 	border: 1px solid #ccc;
@@ -348,7 +346,6 @@ nav #navlist{
 	float:left;
 	width: 398px;
 	height: 398px;
-	padding: opx;
 	vertical-align: top; 	
 	background-color: #FCF6CA;
 	border: 1px solid #ccc;
@@ -392,7 +389,6 @@ nav #navlist{
 	float:left;
 	width: 398px;
 	height: 398px;
-	padding: opx;
 	vertical-align: top; 	
 	background-color: #FF9900;
 	border: 1px solid #ccc;
@@ -416,7 +412,6 @@ nav #navlist{
 	float:left;
 	width: 398px;
 	height: 398px;
-	padding: opx;
 	vertical-align: top; 	
 	background-color: #FCF6CA;
 	border: 1px solid #ccc;
@@ -461,7 +456,6 @@ nav #navlist{
 	float:left;
 	width: 398px;
 	height: 398px;
-	padding: opx;
 	vertical-align: top; 	
 	background-color: #336666;
 	border: 1px solid #ccc;
@@ -485,7 +479,6 @@ nav #navlist{
 	float:left;
 	width: 398px;
 	height: 398px;
-	padding: opx;
 	vertical-align: top; 	
 	background-color: #FCF6CA;
 	border: 1px solid #ccc;
@@ -530,7 +523,6 @@ nav #navlist{
 	float: left;
 	width: 398px;
 	height: 398px;
-	padding: opx;
 	vertical-align: top; 	
 	background-color: #993300;
 	border: 1px solid #ccc;
@@ -553,7 +545,6 @@ nav #navlist{
 	float:left;
 	width: 398px;
 	height: 398px;
-	padding: opx;
 	vertical-align: top; 	
 	background-color: #FCF6CA;
 	border: 1px solid #ccc;
@@ -597,7 +588,6 @@ nav #navlist{
 	float:left;
 	width: 398px;
 	height: 398px;
-	padding: opx;
 	vertical-align: top; 	
 	background-color: #FCF6CA;
 	border: 1px solid #ccc;
@@ -646,7 +636,6 @@ nav #navlist{
 	float: left;
 	width: 398px;
 	height: 398px;
-	padding: opx;
 	vertical-align: top; 	
 	background-color: #808000;
 	border: 1px solid #ccc;
@@ -669,7 +658,6 @@ nav #navlist{
 	float:left;
 	width: 398px;
 	height: 398px;
-	padding: opx;
 	vertical-align: top; 	
 	background-color: #FCF6CA;
 	border: 1px solid #ccc;
@@ -718,7 +706,6 @@ nav #navlist{
 	float: left;
 	width: 398px;
 	height: 398px;
-	padding: opx;
 	vertical-align: top; 	
 	background-color: #444466;
 	border: 1px solid #ccc;
@@ -741,7 +728,6 @@ nav #navlist{
 	float:left;
 	width: 398px;
 	height: 398px;
-	padding: opx;
 	vertical-align: top; 	
 	background-color: #FCF6CA;
 	border: 1px solid #ccc;
