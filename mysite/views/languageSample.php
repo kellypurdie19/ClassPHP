@@ -12,7 +12,7 @@
 	<div id="right">
 		<div id="span"></div>
 		<div class="top" >
-			<article></article><h1>Database Samples</h1><article></article>
+			<article></article><h1>LANGUAGE SAMPLES</h1><article></article>
 		 	<h2><?php include 'coder.php'; ?></h2><article id="article"></article>
 		 </div>
 		 

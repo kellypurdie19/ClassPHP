@@ -79,7 +79,19 @@ nav #navlist{
 	display: inline-block;
 	margin-top: 0px;	
 }
-#navme {
+#coder li a:hover{/* mouse over link */
+	color: #0000FF;
+}
+#coder li a:active{
+	color: #CC6633;
+}
+#designernav li a:hover{/* mouse over link */
+	color: #0000FF;
+}
+#designernav li a:active{
+	color: #CC6633;
+}
+.navme {
 	display: inline-block;
 	width: 100px;
 	height: 30px;
@@ -101,7 +113,20 @@ nav #navlist{
 	box-shadow: 5px 5px 2px #325C74;
 	text-align: center;
 }
-#navme a{
+.navme:link{
+	background:#000000;	
+	}
+	.navme:visited{
+		background: #0000FF;
+	}
+	.navme:hover{
+		background: #00FF00;	
+	}
+	
+	.navme:active{
+		background: #FFF;
+	} 
+.navme a{
 	display: inline-block;
 	padding: 6px 3px;
 	vertical-align: middle;
@@ -112,6 +137,19 @@ nav #navlist{
 	font-family: Georgia, "Times New Roman", Times, serif;
 	font-weight:bold;
 }
+	.navme a:link{
+		color:#000000;	
+	}
+	.navme a:visited{
+		color: #FFF;
+	}
+	.navme a:hover{
+		color:#FFF;	
+	}
+	
+	.navme a:active{
+		color:#0000FF;
+	} 
 	#current{
 		display: inline-block;
 		text-decoration: none;
@@ -218,7 +256,7 @@ nav #navlist{
 	vertical-align: middle;
 	text-align: center;
 }
-#about #span{
+#about .span{
 	float:left;
 	
 }
@@ -570,7 +608,7 @@ nav #navlist{
 	vertical-align: middle;
 	text-align: center;
 }
-#photography #span{
+#photography .span{
 	float:left;
 	
 }
@@ -642,7 +680,7 @@ nav #navlist{
 	vertical-align: middle;
 	text-align: center;
 }
-#designer #span{
+#designer .span{
 	float:left;
 	
 }
@@ -766,7 +804,7 @@ nav #navlist{
 #coder form li:first-child{
 	border-left: 1px solid #DDF;
 }
-#designernav #list{
+#designernav .list{
 	text-align: center;
 }
 #designernav ul li a{	
@@ -804,6 +842,8 @@ footer{
 	height: 50px; /*753728*/
 	margin: 25px 0;
 	padding: 45px;
+	color: #CC6633;
+	font-weight:900;
 	
 }
 .submit{

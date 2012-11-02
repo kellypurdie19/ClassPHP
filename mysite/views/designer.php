@@ -9,7 +9,7 @@
 		 <div id="span"></div>
 	</div>
 	<div id="right">	 
-		<div id="container">
+		<div class="container">
 			<div class="image-container">
 				<a class="fancybox-button" rel="fancybox-button" href="images/invitation.jpg" title="An invitation that I created for an exibition where artists such as David Kibuuka &Barbara Mc Givern presented their paintings. I worked closely with both artists in the creation 
 				 of their booklets that displayed their artistic Master pieces. All created by Docu tech 6060 Booklet

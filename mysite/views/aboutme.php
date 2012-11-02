@@ -1,11 +1,11 @@
 <div id="about">
 	<div id="left">
-		<div id="span"></div>
+		<div class="span"></div>
 		<div class="top" >
 			<article></article><h1>ONLINE PORTFOLIO</h1><article></article>
 		 	<h2>WELCOME!</h2><article id="article"></article>
 		 </div>
-		 <div id="span"></div>
+		 <div class="span"></div>
 	</div>
 	<div id="right">	 
 		<img  src="images/me_kelly.png" alt="meImage" />
